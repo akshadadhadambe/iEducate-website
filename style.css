@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo img{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black 2px solid;
+    border-radius: 50%;
+}
+
+
+.nav-bar{ 
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    
+    background-color: black;
+    color: aliceblue;
+}
+.nav-list{
+width: 50%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+ .home ,.contactus ,.ser ,.aboutus{
+    color: aliceblue;
+
+ }
+
+
+.search{
+margin-left: 300px;
+display: flex;
+align-items: center;
+}
+
+.logo2 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+  
+}
+.text, .p{
+    color: whitesmoke;
+}
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+}
+
+.backimg{
+    background-image: url("images/blue.jpg"); 
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.midletxt{
+  text-align: center;
+}
+
+.btn1{
+    margin-right: 5%;
+}
+
+.bkimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url("images/bkk.jpg");
+}
+.about{
+    color:wheat;
+    text-align: center;
+}
+
+
+.bkkimg{
+    background-image: url("images/bkk.jpg");
+    background-size: cover;
+}
